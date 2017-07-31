@@ -1,0 +1,26 @@
+.company {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.line_up {
+  display: flex;
+  align-items: center;
+}
+
+.line_up input {
+  height: 40%;
+}
+
+.worked_box {
+  width: 15%;
+}
+
+.box1 {
+  margin-right: 10px;
+}
+
+.box2 {
+  margin-left: 10px;
+}
