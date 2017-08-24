@@ -1,0 +1,24 @@
+.build {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  border-bottom: 1px solid #028DEA;
+}
+
+.build_btn {
+  width: 600px;
+  height: 40px;
+  font-size: 30px;
+  letter-spacing: 20px;
+  font-weight: bold;
+  background-color: #222;
+  color: #028DEA;
+  text-shadow: .5px .5px 1px white;
+  border: none;
+  border-radius: 3px;
+}
+
+.build_btn:active{
+  background-color: white;
+  color: #222;
+}

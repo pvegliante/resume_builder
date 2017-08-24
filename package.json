@@ -3,8 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "browser-router": "^0.2.0",
+    "match": "^1.2.7",
+    "miss": "0.0.1",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-browser-router": "^1.0.6",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.2"
   },
   "devDependencies": {
     "react-scripts": "1.0.10"

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
-class StudentInfo extends Component{
+
+class StudentInfo extends React.Component {
   render() {
     return(
       <div className="main">
@@ -32,6 +33,5 @@ class StudentInfo extends Component{
     );
   }
 }
-
 
 export default StudentInfo;

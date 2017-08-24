@@ -8,7 +8,11 @@ class Certifications extends Component{
     return(
       <div className="pht">
         <form className="cpt-fillout">
-          <input className="inputBox" type="text" />
+          <ul>
+            <li>
+              <input className="inputBox" type="text" />
+            </li>
+          </ul>
         </form>
         <div>
           <button className="btn">ADD MORE</button>

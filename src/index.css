@@ -4,6 +4,24 @@ body {
   font-family: sans-serif;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #028DEA;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+  font-weight: bold;
+}
+
 /*#028DEA*/
 
 .App-header h2 {
