@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './Pharmacy.css';
-import './References.css';
+import '../css/Pharmacy.css';
+import '../css/References.css';
 
 class References extends Component {
   render() {

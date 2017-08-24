@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Pharmacy.css';
+import '../css/Pharmacy.css';
 
 
 const addMore = (props, event) => {

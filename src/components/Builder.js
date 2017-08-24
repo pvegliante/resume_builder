@@ -6,8 +6,8 @@ import Certifications from './Certifications';
 import Experience from './Experience';
 import References from './References';
 import Build_Button from './Build_Button';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import '../css/App.css';
 
 class Builder extends Component {
 
@@ -61,7 +61,7 @@ class Builder extends Component {
           <Build_Button/>
 
         </div>
-      </div>  
+      </div>
     );
    }
 }

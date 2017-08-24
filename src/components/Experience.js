@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './Pharmacy.css';
-import './Experance.css';
+import '../css/Pharmacy.css';
+import '../css/Experance.css';
 
 
 
