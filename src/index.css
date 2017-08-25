@@ -8,7 +8,7 @@ li {
   list-style-type: none;
 }
 
-a {
+/*a {
   text-decoration: none;
   color: #028DEA;
 }
@@ -22,27 +22,6 @@ a {
   font-weight: bold;
 }
 
-/*#028DEA*/
+#028DEA
 
-.App-header h2 {
-  font-size: 60px;
-  color: #028DEA;
-  text-shadow: 1px 1px  white;
-}
-
-.name,
-.living,
-.person-info {
-  letter-spacing: 2px;
-  display: flex;
-  margin: 10px;
-  height: 50px;
-  align-items: center;
-  flex-wrap: wrap;
-  border-bottom: 1px solid #028DEA;
-}
-
-h3 {
-  margin-left: 20px;
-  margin-right: 20px;
-}
+*/

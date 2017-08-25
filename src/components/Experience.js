@@ -38,7 +38,7 @@ class Experience extends Component{
             </li>
           </ul>
         </form>
-        <div>
+        <div className="btn-container">
           <button className="btn exp_btn">ADD MORE</button>
         </div>
       </div>

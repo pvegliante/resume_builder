@@ -28,7 +28,7 @@ class PharmacyTech extends Component{
             </li>
           </ul>
         </form>
-        <div>
+        <div className="btn-container">
           <button className="btn" type="submit" onClick={addMore} >ADD MORE</button>
         </div>
       </div>

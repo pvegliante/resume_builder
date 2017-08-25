@@ -14,7 +14,7 @@ class Certifications extends Component{
             </li>
           </ul>
         </form>
-        <div>
+        <div className="btn-container">
           <button className="btn">ADD MORE</button>
         </div>
       </div>

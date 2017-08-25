@@ -24,7 +24,7 @@ class References extends Component {
           <input type="text" />
         </form>
         </div>
-        <div>
+        <div className="btn-container">
           <button className="btn">ADD MORE</button>
         </div>
       </div>

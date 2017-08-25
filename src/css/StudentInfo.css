@@ -1,0 +1,16 @@
+.name,
+.living,
+.person-info {
+  letter-spacing: 2px;
+  display: flex;
+  margin: 10px;
+  height: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #028DEA;
+}
+
+h3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}

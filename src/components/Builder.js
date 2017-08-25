@@ -6,16 +6,19 @@ import Certifications from './Certifications';
 import Experience from './Experience';
 import References from './References';
 import Build_Button from './Build_Button';
-import logo from '../logo.svg';
-import '../css/App.css';
+import { NavLink } from 'react-router-dom';
+import "../css/Builder.css";
+
 
 class Builder extends Component {
-
   render() {
     return (
       <div>
         <div className="App-header">
-          <h2>Welcome to FVI Resume Builder</h2>
+          <h1>FVI Resume Builder</h1>
+          <NavLink exact activeClassName='active' to='/'>
+            <button className="home-btn">Home</button>
+          </NavLink>
         </div>
         <div>
             <StudentInfo />

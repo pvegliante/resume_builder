@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
+import '../css/StudentInfo.css';
 
 
-class StudentInfo extends React.Component {
+class StudentInfo extends Component {
   render() {
     return(
       <div className="main">

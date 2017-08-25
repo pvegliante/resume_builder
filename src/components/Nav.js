@@ -1,19 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import "../css/Nav.css";
 
 function Nav() {
   return(
     <ul className="nav">
-      <li>
+      {/* <li>
         <NavLink exact activeClassName='active' to='/'>
-          Home
+          <button>Home</button>
         </NavLink>
-      </li>
-      <li>
-        <NavLink activeClassName='active' to='/builder'>
-          Primary Care Technician
-        </NavLink>
-      </li>
+      </li> */}
     </ul>
   )
 }
