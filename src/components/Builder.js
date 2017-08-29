@@ -5,10 +5,8 @@ import Education from './Education';
 import Certifications from './Certifications';
 import Experience from './Experience';
 import References from './References';
-import Build_Button from './Build_Button';
+import BuildButton from './BuildButton';
 import { NavLink } from 'react-router-dom';
-import "../css/Builder.css";
-
 
 class Builder extends Component {
   render() {
@@ -61,7 +59,7 @@ class Builder extends Component {
 
         </div>
         <div>
-          <Build_Button/>
+          <BuildButton/>
 
         </div>
       </div>

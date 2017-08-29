@@ -1,13 +1,20 @@
 import React, {Component} from 'react';
-import '../css/Pharmacy.css';
-import '../css/Experance.css';
-
-
 
 class Experience extends Component{
-  render() {
-    return(
-      <div className="pht">
+
+  state = {
+    companies: ['foo']
+  }
+
+  addCompany = () => {
+    this.setState({
+      companies: [...this.state.companies, 'another one']
+    })
+  }
+
+  renderCompany = () => {
+    return (
+      <div>
         <div className="company">
           <form className="company_name line_up">
             <h3>Company Name:</h3>
@@ -26,20 +33,30 @@ class Experience extends Component{
             <input type="text"/>
           </form>
           <form className="dates_worked line_up">
-            <h3>Dates Worked:</h3>
-            <input className="worked_box box1" type="text"/> - <input className="worked_box box2" type="text"/>
+            <h3>Start Date:</h3>
+            <input className="worked_box box1" type="date"/>
+            <h3>End Date:</h3>
+            <input className="worked_box box2" type="date"/>
           </form>
         </div>
         <form className="cpt-fillout">
           <h3>Discription :</h3>
           <ul>
             <li>
-              <input className="inputBox" type="text" />
+              <textarea className="inputBox" type="text" />
             </li>
           </ul>
         </form>
+      </div>
+    )
+  }
+
+  render() {
+    return(
+      <div className="pht">
+        {this.state.companies.map(this.renderCompany)}
         <div className="btn-container">
-          <button className="btn exp_btn">ADD MORE</button>
+          <button className="btn exp_btn" type="submit" onClick={this.addCompany}>ADD MORE</button>
         </div>
       </div>
     );

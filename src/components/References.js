@@ -1,9 +1,18 @@
 import React, {Component} from 'react';
-import '../css/Pharmacy.css';
-import '../css/References.css';
 
 class References extends Component {
-  render() {
+
+  state = {
+    references: ['foo']
+  }
+
+  addReference = () => {
+    this.setState({
+      references: [...this.state.references, 'another one']
+    })
+  }
+
+  renderReferences = () => {
     return(
       <div className="pht">
         <div className="ref">
@@ -21,15 +30,23 @@ class References extends Component {
         </form>
         <form className="line_up">
           <h3>Email :</h3>
-          <input type="text" />
+          <input type="url" />
         </form>
         </div>
-        <div className="btn-container">
-          <button className="btn">ADD MORE</button>
-        </div>
       </div>
-    );
-  }
+      )
+    }
+
+      render() {
+        return(
+          <div>
+            {this.state.references.map(this.renderReferences)}
+            <div className="btn-container">
+              <button className="btn" type="submit" onClick={this.addReference}>ADD MORE</button>
+            </div>
+          </div>
+          )
+      }
 }
 
 export default References;

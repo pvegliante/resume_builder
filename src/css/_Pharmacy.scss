@@ -1,6 +1,13 @@
 .pht {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 20px;
   border-bottom: 1px solid #028DEA;
+}
+
+ h2  {
+  text-align: center;
 }
 
 .cpt-fillout {
@@ -8,26 +15,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  min-height: 100px;
+  width: 80vw;
 }
 
 ul {
   display: flex;
+  flex-wrap: wrap;
   width: 90%;
   height: 40%;
   margin: 0 auto;
 }
 
 .inputBox {
+  width: 900px;
   padding: 0;
   margin-top: 2.5px;
   height: 90%;
-  width: 90%;
   text-align: justify;
   margin-bottom: 5px;
+  resize: vertical;
 }
 
 .btn {
+  margin-top: 20px;
   margin-bottom: 20px;
   width: 300px;
   font-size: 20px;
@@ -36,7 +47,6 @@ ul {
   background-color: #003352;
   color: #028DEA;
   text-shadow: .5px .5px 1px white;
-  transition: .5s ease-in-out;
 }
 
 .btn:hover {

@@ -1,0 +1,30 @@
+Data = {
+  "studentInfo": {
+    "id": ,
+    "first_name": "",
+    "last_name": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "zip_code": "",
+    "phone": "",
+    "email": ""
+  },
+  "information": [],
+  "education": [],
+  "certifications": [],
+  "experience": [{
+    "company_name": "",
+    "company_city": "",
+    "title": "",
+    "startDate": "",
+    "endDate": "",
+    "discription": "",
+  }],
+  "references": [{
+    "name": "",
+    "relation": "",
+    "phone": "",
+    "email": ""
+  }]
+}

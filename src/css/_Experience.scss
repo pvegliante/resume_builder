@@ -1,4 +1,4 @@
-/*.company {
+.company {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -14,7 +14,7 @@
 }
 
 .worked_box {
-  width: 15%;
+  min-width: 100px;
 }
 
 .box1 {
@@ -27,4 +27,8 @@
 
 .exp_btn {
   margin-top: 20px;
-}*/
+}
+
+.title {
+  margin-left: 25px;
+}
