@@ -12,6 +12,8 @@ class Builder extends Component {
   render() {
     return (
       <div>
+        {/* remove NavLink and make Link
+            style link to look like button */}
         <div className="App-header">
           <h1>FVI Resume Builder</h1>
           <NavLink exact activeClassName='active' to='/'>

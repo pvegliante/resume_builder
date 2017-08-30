@@ -5,8 +5,7 @@ class BuildButton extends Component {
 
 handleClick(e) {
   window.location = "/resume";
-  e.preventdefault();
-  //make sure to refactor before pushing live
+  e.preventdefault(); //<--- make sure to refactor before pushing live
 }
 
   render(){

@@ -29,7 +29,7 @@ class Experience extends Component{
             <input type="text"/>
           </form>
           <form className="title line_up">
-            <h3>Title:</h3>
+            <h3>Position:</h3>
             <input type="text"/>
           </form>
           <form className="dates_worked line_up">

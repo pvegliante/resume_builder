@@ -1,4 +1,4 @@
-Data = {
+{
   "studentInfo": {
     "id": ,
     "first_name": "",
@@ -16,10 +16,10 @@ Data = {
   "experience": [{
     "company_name": "",
     "company_city": "",
-    "title": "",
+    "Position": "",
     "startDate": "",
     "endDate": "",
-    "discription": "",
+    "discription": ""
   }],
   "references": [{
     "name": "",
